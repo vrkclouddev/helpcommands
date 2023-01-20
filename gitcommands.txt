@@ -13,9 +13,6 @@ git config -l
 
 git log --oneline
 
-git remote add origin https://github.com/USER/REPO.git
-
-git remote add origin https://github.com/vrkclouddev/helpcommands.git
 git branch -M main
 git push -u origin main
 
@@ -23,4 +20,10 @@ git remote -v
 git branch -a 
 
 "normal merge, conflict merge can handle through mergetool
+=======
+
+Configuration for Conflict Merging
+git config --global merge.toolvimdiff
+git config --global merge.conflictstyle diff3
+git config --global mergetool.prompt false
  
