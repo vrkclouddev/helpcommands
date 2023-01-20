@@ -1,0 +1,4 @@
+#!/bin/bash
+yum install tree
+sudo su
+chmod 777 <filename>
