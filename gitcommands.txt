@@ -22,4 +22,5 @@ git push -u origin main
 git remote -v
 git branch -a 
 
+"normal merge, conflict merge can handle through mergetool
  
