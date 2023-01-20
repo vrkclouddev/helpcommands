@@ -17,4 +17,9 @@ git push -u origin main
 git remote -v
 git branch -a 
 
+
+Configuration for Conflict Merging
+git config --global merge.toolvimdiff
+git config --global merge.conflictstyle diff3
+git config --global mergetool.prompt false
  
